@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b6f6f82099da8197a4759a6c9372a043 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b6f6f82099da8197a4759a6c9372a043" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b6f6f82099da8197a4759a6c9372a043 = L.map(
+                "map_b6f6f82099da8197a4759a6c9372a043",
+                {
+                    center: [35.4095, 24.7856],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dab5be61b4b118712e1493ded2de9d8c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b6f6f82099da8197a4759a6c9372a043);
+        
+    
+            var marker_cluster_344beb4538175cbd0fef686ccd0ad475 = L.markerClusterGroup(
+                {}
+            );
+            map_b6f6f82099da8197a4759a6c9372a043.addLayer(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var marker_1343f77f71400f8f72afc7bd206a29e9 = L.marker(
+                [35.4095, 24.7862],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_cd4598e7508a24c29e117e9b9c7f271e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1343f77f71400f8f72afc7bd206a29e9.setIcon(icon_cd4598e7508a24c29e117e9b9c7f271e);
+        
+    
+        var popup_e98914148545cc99f1852c54084e8631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_004b2713087535fc56b51ab47b4a1e5f = $(`<div id="html_004b2713087535fc56b51ab47b4a1e5f" style="width: 100.0%; height: 100.0%;"><b>Plaża Livadi</b><br>Spokojna plaża z dużą przestrzenią do lotu.</div>`)[0];
+            popup_e98914148545cc99f1852c54084e8631.setContent(html_004b2713087535fc56b51ab47b4a1e5f);
+        
+
+        marker_1343f77f71400f8f72afc7bd206a29e9.bindPopup(popup_e98914148545cc99f1852c54084e8631)
+        ;
+
+        
+    
+    
+            var marker_97537745012708aac88ddc35dd5d82fa = L.marker(
+                [35.4104, 24.7819],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_6e66a725b8666de6f56e12ab1a2345e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_97537745012708aac88ddc35dd5d82fa.setIcon(icon_6e66a725b8666de6f56e12ab1a2345e5);
+        
+    
+        var popup_7d9d632702ff84e9355329b02dbaf0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbec9adf1fb28a42957be3514329754c = $(`<div id="html_fbec9adf1fb28a42957be3514329754c" style="width: 100.0%; height: 100.0%;"><b>Plaża Karavostasi</b><br>Mała plaża z klifami – idealna do zdjęć z góry.</div>`)[0];
+            popup_7d9d632702ff84e9355329b02dbaf0a5.setContent(html_fbec9adf1fb28a42957be3514329754c);
+        
+
+        marker_97537745012708aac88ddc35dd5d82fa.bindPopup(popup_7d9d632702ff84e9355329b02dbaf0a5)
+        ;
+
+        
+    
+    
+            var marker_213ae41312b520ae83fd136a1297d34f = L.marker(
+                [35.4174, 24.7678],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_5587bd28072933746fe48bdcd61b917b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_213ae41312b520ae83fd136a1297d34f.setIcon(icon_5587bd28072933746fe48bdcd61b917b);
+        
+    
+        var popup_a39170635d757b15c2b7981f2a23502f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23f73fa5b62da5a30476cbe16ede2bd0 = $(`<div id="html_23f73fa5b62da5a30476cbe16ede2bd0" style="width: 100.0%; height: 100.0%;"><b>Monastyr Atali</b><br>Widokowy punkt nad Bali – świetny do panoram.</div>`)[0];
+            popup_a39170635d757b15c2b7981f2a23502f.setContent(html_23f73fa5b62da5a30476cbe16ede2bd0);
+        
+
+        marker_213ae41312b520ae83fd136a1297d34f.bindPopup(popup_a39170635d757b15c2b7981f2a23502f)
+        ;
+
+        
+    
+    
+            var marker_4a46d3f9fcfabec3f47b80978a1ddc5b = L.marker(
+                [35.4123, 24.7785],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_7c75631b543677da507d199c842b7c81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a46d3f9fcfabec3f47b80978a1ddc5b.setIcon(icon_7c75631b543677da507d199c842b7c81);
+        
+    
+        var popup_dac2a9a16aabfbe43f05303ca7901524 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_701954a18b301db783f31cc0e55dee61 = $(`<div id="html_701954a18b301db783f31cc0e55dee61" style="width: 100.0%; height: 100.0%;"><b>Droga nad Bali – punkt widokowy</b><br>Znakomite ujęcia zatoki Bali z góry.</div>`)[0];
+            popup_dac2a9a16aabfbe43f05303ca7901524.setContent(html_701954a18b301db783f31cc0e55dee61);
+        
+
+        marker_4a46d3f9fcfabec3f47b80978a1ddc5b.bindPopup(popup_dac2a9a16aabfbe43f05303ca7901524)
+        ;
+
+        
+    
+    
+            var marker_353f94d53d7d7147cc88a078a0a59bd0 = L.marker(
+                [35.3871, 24.6708],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_4c570035c388ee78b33bf3e3fac62166 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_353f94d53d7d7147cc88a078a0a59bd0.setIcon(icon_4c570035c388ee78b33bf3e3fac62166);
+        
+    
+        var popup_52c21d2674f2c9c302a3260d5b85182c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb9934e149bb96217e934b30414ce78e = $(`<div id="html_eb9934e149bb96217e934b30414ce78e" style="width: 100.0%; height: 100.0%;"><b>Plaża Spilies</b><br>Piękna dzika plaża ze skałami – dron idealny.</div>`)[0];
+            popup_52c21d2674f2c9c302a3260d5b85182c.setContent(html_eb9934e149bb96217e934b30414ce78e);
+        
+
+        marker_353f94d53d7d7147cc88a078a0a59bd0.bindPopup(popup_52c21d2674f2c9c302a3260d5b85182c)
+        ;
+
+        
+    
+    
+            var marker_b79e01e41068a3e312785b8885df8816 = L.marker(
+                [35.3843, 24.6579],
+                {}
+            ).addTo(marker_cluster_344beb4538175cbd0fef686ccd0ad475);
+        
+    
+            var icon_219d89c92031faaada86a697c5c2f863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b79e01e41068a3e312785b8885df8816.setIcon(icon_219d89c92031faaada86a697c5c2f863);
+        
+    
+        var popup_b65746acd0d3ee2ac91e41b0fac9bca3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9761a448ec44c1fbacbddff51f6815e7 = $(`<div id="html_9761a448ec44c1fbacbddff51f6815e7" style="width: 100.0%; height: 100.0%;"><b>Plaża Geropotamos</b><br>Otwarte przestrzenie i widokowy most.</div>`)[0];
+            popup_b65746acd0d3ee2ac91e41b0fac9bca3.setContent(html_9761a448ec44c1fbacbddff51f6815e7);
+        
+
+        marker_b79e01e41068a3e312785b8885df8816.bindPopup(popup_b65746acd0d3ee2ac91e41b0fac9bca3)
+        ;
+
+        
+    
+    
+            var marker_bb5fa355e2df7c466edd9041a42766ea = L.marker(
+                [35.2989, 25.1624],
+                {}
+            ).addTo(map_b6f6f82099da8197a4759a6c9372a043);
+        
+    
+            var icon_f998837d7b40a34f2e3ca1dd63b64865 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb5fa355e2df7c466edd9041a42766ea.setIcon(icon_f998837d7b40a34f2e3ca1dd63b64865);
+        
+    
+        var popup_3f465491b910d0d9c51012673b4e094c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c50ff605c9fbaeac275d0ba75e8461f = $(`<div id="html_6c50ff605c9fbaeac275d0ba75e8461f" style="width: 100.0%; height: 100.0%;"><b>Knossos</b><br>Strefa archeologiczna – zakaz lotów.</div>`)[0];
+            popup_3f465491b910d0d9c51012673b4e094c.setContent(html_6c50ff605c9fbaeac275d0ba75e8461f);
+        
+
+        marker_bb5fa355e2df7c466edd9041a42766ea.bindPopup(popup_3f465491b910d0d9c51012673b4e094c)
+        ;
+
+        
+    
+    
+            var marker_2eed680b35996b919d0619ea07cffc4e = L.marker(
+                [34.9944, 24.749],
+                {}
+            ).addTo(map_b6f6f82099da8197a4759a6c9372a043);
+        
+    
+            var icon_73a0da22019e77eaf5f983284e4f8f21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2eed680b35996b919d0619ea07cffc4e.setIcon(icon_73a0da22019e77eaf5f983284e4f8f21);
+        
+    
+        var popup_1cbf4183e96afb0cea4eb8d280bb4581 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c7154f4e168ca20e4eeb5e3f7308d2f = $(`<div id="html_0c7154f4e168ca20e4eeb5e3f7308d2f" style="width: 100.0%; height: 100.0%;"><b>Matala Groty</b><br>Obszar chroniony – nie wolno latać.</div>`)[0];
+            popup_1cbf4183e96afb0cea4eb8d280bb4581.setContent(html_0c7154f4e168ca20e4eeb5e3f7308d2f);
+        
+
+        marker_2eed680b35996b919d0619ea07cffc4e.bindPopup(popup_1cbf4183e96afb0cea4eb8d280bb4581)
+        ;
+
+        
+    
+</script>
+</html>
